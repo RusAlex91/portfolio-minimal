@@ -14,7 +14,7 @@ html {
   --works-h2: calc(0vw - var(--main));
   --works-a: calc(0vw - var(--main));
   --works-tags-a: calc(0vw - var(--main));
-  --works-tags-span: calc(0vw - var(--main));
+  --works-tags-span: calc(0.5vw - var(--main));
   --work-h3: calc(0vw - var(--main));
   --work-a: calc(0vw - var(--main));
   --work-simple-h2: calc(0vw - var(--main));
@@ -144,6 +144,9 @@ main {
   font-size: calc(3.5vw - var(--works-tags-a));
 }
 .works-tags span {
+  margin-bottom: 5vh;
+  margin-top: 5vh;
+  font-style: italic;
   font-size: calc(2.6vw - var(--works-tags-span));
 }
 
