@@ -19,6 +19,7 @@ html {
   --work-a: calc(0vw - var(--main));
   --work-simple-h2: calc(0vw - var(--main));
   --work-complex-h2: calc(0vw - var(--main));
+  --work-testing-h2: calc(0vw - var(--main));
   --work-desc: calc(0vw - var(--main));
   --work-tech: calc(0vw - var(--main));
 }
@@ -196,6 +197,21 @@ main {
 
 #work-complex h2 {
   font-size: calc(3.8vw - var(--work-complex-h2));
+  font-weight: 600;
+  color: #fc8071;
+}
+
+#work-testing {
+  margin-top: 26.667vw;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: left;
+}
+
+#work-testing h2 {
+  font-size: calc(3.8vw - var(--work-testing-h2));
   font-weight: 600;
   color: #fc8071;
 }

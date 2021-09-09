@@ -252,7 +252,7 @@ const portfolioCases = {
   testing: {
     1: {
       id: 1,
-      name: 'Testing Case: Gallery',
+      name: 'Gallery',
       desc:
         'Gallery with drag and drop, JSON file/IMG file upload, URL upload, switch css for alternative gallery look and preloader.',
       tech: 'HTML, CSS, JavaScript',
@@ -265,3 +265,4 @@ const portfolioCases = {
 
 portfolioCreation.extractPortfolioData('complex')
 portfolioCreation.extractPortfolioData('simple')
+portfolioCreation.extractPortfolioData('testing')
