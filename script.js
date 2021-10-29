@@ -259,6 +259,15 @@ const portfolioCases = {
       github: 'https://github.com/RusAlex91/frontend-test-assignment',
       src: './images/work-sample/simple/test_case_1.gif',
       webLink: 'https://rusalex91.github.io/projects/light/testing_case_1/'
+    },
+    2: {
+      id: 2,
+      name: 'Death Date Landing',
+      desc: 'Simple landing with mobile adaptation, some form and quiz.',
+      tech: 'HTML, CSS, JavaScript, Vue',
+      github: 'https://github.com/RusAlex91/death-date',
+      src: './images/work-sample/simple/death-date.gif',
+      webLink: 'https://rusalex91.github.io/projects/medium/death-date/'
     }
   }
 }
